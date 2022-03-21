@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@handler": ["./lib/handler"],
+      "@notifications": ["./lib/notifications/index"],
+      "@seo": ["./lib/seo"],
+      "@services": ["./lib/services"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
